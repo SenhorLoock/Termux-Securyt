@@ -13,7 +13,7 @@ cowsay -f dragon "Password" | lolcat
 printf "$cor2"
 echo "######################################################################"
 figlet -f mono12 "Login" | lolcat
-printf "$cor2"
+printf "$cor1"
 echo "######################################################################"
 echo '######################################################################'
 printf "$cor2"
@@ -29,7 +29,7 @@ then
   sleep 2.0
  cat tentativa.html
 
-PS1='Local@root: '
+
 
 else
 printf '\033[1;35mAcesses Negads..\033[m'
@@ -42,3 +42,4 @@ cd usr
 cd etc
 bash bash.bashrc
 fi 
+PS1='Local@root: '
