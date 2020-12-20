@@ -3,7 +3,7 @@
 clear
 #laucher De Personalizaçao comando de supote
 printf '\n\033[1;32m[\033[1;37m*\033[1;32m]\033[1;37mCriador\033[1;32m:\033[1;37mSenhorLoock\033[m'
-printf '\n\033[1;32m[\033[1;37m*\033[1;32m]\033[1;37mGITHUB\033[1;32m:\033[1;37mhttps://github.com/SenhorLoock\$
+printf '\n\033[1;32m[\033[1;37m*\033[1;32m]\033[1;37mGITHUB\033[1;32m:\033[1;37mhttps://github.com/SenhorLoock'
 printf '\n\033[1;36mFerramenta De Instalacao De Tema Do Senhor Loock...\033[m\n'
 sleep 3.0
 echo "                      !!!!!!!!!!!!!!!!!!" | lolcat
@@ -16,7 +16,7 @@ echo "                        !!!!!!!!!!!!!!"  | lolcat
 echo "                         !! ! ! ! ! !"   | lolcat
 echo "                         !! ! ! ! ! !"   | lolcat
 echo "                         !  ! ! ! ! !"   | lolcat
-printf '\n\033[1;32m[\033[1;37m01\033[1;32m]\033[4;37mEditar Senha \033[1;32m[\033[1;37m02\033[1;32m]\033[4;37m$
+printf '\n\033[1;32m[\033[1;37m01\033[1;32m]\033[4;37mEditar Senha \033[1;32m[\033[1;37m02\033[1;32m]\033[4;37mInstalar Tema\033[m \033[1;32m[\033[1;37m00\033[1;32m]\033[4;37mExit \033[m'
 read enter
 if [ "$enter" = "01" ]
  then
