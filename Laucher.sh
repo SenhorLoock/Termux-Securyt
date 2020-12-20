@@ -32,7 +32,7 @@ if [ "$enter" = "00" ]
 then
  clear
  printf '\033[1;32mSaindo...\033[m'
- sleep 2.0
+ exit(7)
 fi
 if [ "$enter" <> "01, 02, 00" ]
 then
