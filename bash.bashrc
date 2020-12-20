@@ -24,6 +24,17 @@ printf '\033[1;36mDigite Sua Senha: '
 read  Senha
 if [ "$Senha" = "0000" ] #DIGITE SUA SENHA AQUI NO LUGAR DO 0000 
 then
+ echo "                      !!!!!!!!!!!!!!!!!!" | lolcat
+echo "                      !!!    !!!!    !!!" | lolcat
+echo "                      !!!  @ !!!!  @ !!!" | lolcat
+echo "                      !!!    !!!!    !!!" | lolcat
+echo "                      !!!!!!!!  !!!!!!!!" | lolcat
+echo "                       !!!!!!!!!!!!!!!!" | lolcat
+echo "                        !!!!!!!!!!!!!!"  | lolcat
+echo "                         !! ! ! ! ! !"   | lolcat
+echo "                         !! ! ! ! ! !"   | lolcat
+echo "                         !  ! ! ! ! !"   | lolcat
+ 
  printf '\033[1;32mAcesso  Concedio..\033[m\n'
   cd
   sleep 2.0
