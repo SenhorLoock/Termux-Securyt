@@ -9,16 +9,18 @@ sem='\033[m'
 
 printf '\033[1;32mAutor:\033[1;36m Senhor Loock\033[1;32m:\033[m \n'
 printf "$cor1"
-echo "\n#########################################################\n"
+cowsay -f dragon "Password" | lolcat
+figlet -f mono12 "Login" | lolcat
+echo '\n#########################################################\n'
 printf "$cor2"
-echo "\n#######                   Login                   #######\n"
+echo '\n#######                   Login                   #######\n'
 printf "$cor1"
-echo "\n#########################################################\n"
+echo '\n#########################################################\n'
 printf '\033[1;36mDigite Sua Senha: '
 read  Senha
 if [ "$Senha" = "0000" ] #DIGITE SUA SENHA AQUI NO LUGAR DO 0000 
 then
- printf '\033[1;32mAcesses Conceds..\033[m'
+ printf '\033[1;32mAcesses Conceds..\033[m\n'
   cd
   sleep 2.0
  cat tentativa.html
