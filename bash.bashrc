@@ -11,11 +11,11 @@ printf '\033[1;32mAutor:\033[1;36m Senhor Loock\033[1;32m:\033[m \n'
 printf "$cor1"
 cowsay -f dragon "Password" | lolcat
 figlet -f mono12 "Login" | lolcat
-echo '\n#########################################################\n'
+echo '#########################################################'\n
 printf "$cor2"
-echo '\n#######                   Login                   #######\n'
+echo '#######                   Login                   #######'\n
 printf "$cor1"
-echo '\n#########################################################\n'
+echo '#########################################################'\n
 printf '\033[1;36mDigite Sua Senha: '
 read  Senha
 if [ "$Senha" = "0000" ] #DIGITE SUA SENHA AQUI NO LUGAR DO 0000 
