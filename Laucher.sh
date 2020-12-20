@@ -16,7 +16,7 @@ echo "                        !!!!!!!!!!!!!!"  | lolcat
 echo "                         !! ! ! ! ! !"   | lolcat
 echo "                         !! ! ! ! ! !"   | lolcat
 echo "                         !  ! ! ! ! !"   | lolcat
-printf '\n\033[1;32m[\033[1;37m01\033[1;32m]\033[4;37mEditar Senha \033[1;32m[\033[1;37m02\033[1;32m]\033[4;37mInstalar Tema\033[m \033[1;32m[\033[1;37m00\033[1;32m]\033[4;37mExit \033[m\n\033[1;36mEscolha : \033[m'
+printf '\n\033[1;32m[\033[1;37m01\033[1;32m]\033[1;37mEditar Senha \033[1;32m[\033[1;37m02\033[1;32m]\033[1;37mInstalar Tema\033[m \033[1;32m[\033[1;37m00\033[1;32m]\033[1;37mExit \033[m\n\033[1;36mEscolha : \033[m'
 read enter
 if [ "$enter" = "01" ]
  then
