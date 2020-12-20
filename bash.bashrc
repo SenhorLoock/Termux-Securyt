@@ -24,6 +24,7 @@ printf '\033[1;36mDigite Sua Senha: '
 read  Senha
 if [ "$Senha" = "0000" ] #DIGITE SUA SENHA AQUI NO LUGAR DO 0000 
 then
+clear
  echo "                      !!!!!!!!!!!!!!!!!!" | lolcat
 echo "                      !!!    !!!!    !!!" | lolcat
 echo "                      !!!  @ !!!!  @ !!!" | lolcat
