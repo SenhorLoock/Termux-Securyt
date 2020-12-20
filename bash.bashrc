@@ -24,7 +24,7 @@ printf '\033[1;36mDigite Sua Senha: '
 read  Senha
 if [ "$Senha" = "0000" ] #DIGITE SUA SENHA AQUI NO LUGAR DO 0000 
 then
- printf '\033[1;32mAcesses Conceds..\033[m\n'
+ printf '\033[1;32mAcesso  Concedio..\033[m\n'
   cd
   sleep 2.0
  cat tentativa.html
@@ -32,7 +32,7 @@ then
 
 
 else
-printf '\033[1;35mAcesses Negads..\033[m'
+printf '\033[1;35mAcesso Negado..\033[m'
 sleep 2.0
 cd
 (echo "Ola Senhor Ouve uma Tentativa de Invasao Senha Usada: $Senha"
