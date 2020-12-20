@@ -8,11 +8,11 @@ sem='\033[m'
 
 
 printf '\033[1;32mAutor:\033[1;36m Senhor Loock\033[1;32m:\033[m '
-printf '$cor1'
+printf "$cor1"
 echo "#########################################################"
-printf '$cor2'
+printf "$cor2"
 echo "#######                   Login                   #######"
-printf '$cor1'
+printf "$cor1"
 echo "##########################################################"
 printf '\033[1;36mDigite Sua Senha: '
 read  Senha
