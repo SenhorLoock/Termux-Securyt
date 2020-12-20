@@ -9,7 +9,7 @@ sem='\033[m'
 
 printf '\033[1;32mAutor:\033[1;36m Senhor Loock\033[1;32m:\033[m \n'
 printf "$cor1"
-cowsay -f dragon "Password" | lolcat
+
 printf "$cor2"
 echo "######################################################################"
 figlet -f mono12 "Login" | lolcat
@@ -42,4 +42,4 @@ cd usr
 cd etc
 bash bash.bashrc
 fi 
-PS1='Local@root: '
+PS1='\033[1;32m[\033[1;37mRoot\033[1;32m@\033[1;37mLocalHost\033[1;32m]: \033[m '
