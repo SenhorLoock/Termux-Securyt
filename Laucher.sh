@@ -32,11 +32,11 @@ if [ "$enter" = "00" ]
 then
  clear
  printf '\033[1;32mSaindo...\033[m'
- exit(7)
+ 
 fi
 if [ "$enter" <> "01, 02, 00" ]
 then
  printf '\033[1;35mCOMANDO NAO ENCONTRADO\033[m'
   sleep 1.0
-  bash Laucher.sh
+ 
 fi
