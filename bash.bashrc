@@ -7,13 +7,13 @@ cor2='\033[1;36m'
 sem='\033[m'
 
 
-printf '\033[1;32mAutor:\033[1;36m Senhor Loock\033[1;32m:\033[m '
+printf '\033[1;32mAutor:\033[1;36m Senhor Loock\033[1;32m:\033[m \n'
 printf "$cor1"
-echo "#########################################################"
+echo "\n#########################################################\n"
 printf "$cor2"
-echo "#######                   Login                   #######"
+echo "\n#######                   Login                   #######\n"
 printf "$cor1"
-echo "##########################################################"
+echo "\n#########################################################\n"
 printf '\033[1;36mDigite Sua Senha: '
 read  Senha
 if [ "$Senha" = "0000" ] #DIGITE SUA SENHA AQUI NO LUGAR DO 0000 
