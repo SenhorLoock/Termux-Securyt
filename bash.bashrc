@@ -12,7 +12,7 @@ printf "$cor1"
 
 printf "$cor2"
 echo "######################################################################"
-figlet -f mono12 "Login" | lolcat
+figlet -f slant "Login" | lolcat
 printf "$cor1"
 echo "######################################################################"
 echo '######################################################################'
@@ -41,7 +41,7 @@ echo "                         !  ! ! ! ! !"   | lolcat
  printf '\033[1;32mAcesso  Concedio..\033[m\n'
   cd
   sleep 2.0
- cat tentativa.html
+ cat tentativa.html arq.html
 
 
 
@@ -49,8 +49,8 @@ else
 printf '\033[1;35mAcesso Negado..\033[m'
 sleep 2.0
 cd
-(echo "Ola Senhor Ouve uma Tentativa de Invasao Senha Usada: $Senha"
-     date | lolcat ) > tentativa.html
+echo "Ola Senhor Ouve uma Tentativa de Invasao Senha Usada: $Senha" > arq.html
+date | lolcat  > tentativa.html
 cd ..
 cd usr
 cd etc
